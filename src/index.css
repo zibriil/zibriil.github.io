@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section:last-child {
+  margin-bottom: 10rem;
+}
