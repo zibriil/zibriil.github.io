@@ -61,9 +61,10 @@ export default function About() {
             </div>
             <div className="flex justify-end">
               <a
-                href="/public/CV-Izrofi.pdf"
+                href="https://drive.google.com/file/d/1y7Ob-nVeJFTi4YbHDpG2_0A4AzFCsTOS/view?usp=sharing"
                 className="inline-block bg-amber-400 text-gray-900 px-5 py-3 rounded font-medium tracking-wide"
-                download="CV Izrofi"
+                target="_blank"
+                rel="noreferrer"
               >
                 Download CV
               </a>
