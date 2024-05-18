@@ -1,6 +1,4 @@
-import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -8,23 +6,38 @@ export default function Footer() {
       <p className="text-sm lg:text-base font-medium order-last lg:order-first mt-3 lg:m-0">
         &copy; {new Date().getFullYear()} Em Izrofi
       </p>
-      <menu className="flex space-x-4 text-slate-800">
+      <ul className="flex space-x-4 text-slate-800">
         <li>
-          <a href="https://web.facebook.com/emizrofi/" title="Facebook">
-            <FacebookRoundedIcon />
-          </a>
+          <Link
+            to="https://web.facebook.com/emizrofi/"
+            title="Facebook"
+            target="_blank"
+            className="hover:underline"
+          >
+            Facebook
+          </Link>
         </li>
         <li>
-          <a href="https://github.com/zibriil" title="Github">
-            <GitHubIcon />
-          </a>
+          <Link
+            to="https://github.com/zibriil"
+            title="Github"
+            target="_blank"
+            className="hover:underline"
+          >
+            Github
+          </Link>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/m-izrofi/" title="LinkedIn">
-            <LinkedInIcon />
-          </a>
+          <Link
+            to="https://www.linkedin.com/in/m-izrofi/"
+            title="LinkedIn"
+            target="_blank"
+            className="hover:underline"
+          >
+            LinkedIn
+          </Link>
         </li>
-      </menu>
+      </ul>
     </footer>
   );
 }

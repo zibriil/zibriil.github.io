@@ -3,7 +3,7 @@ export default function Article({
   title,
   image,
   tags,
-  description,
+  // description,
   onShowDetail,
 }) {
   return (
@@ -12,7 +12,7 @@ export default function Article({
         <picture className="block p-3 rounded overflow-hidden">
           <img
             src={image}
-            className="w-full object-cover scale-125"
+            className="w-full h-60 object-cover scale-125"
             alt={title}
           />
         </picture>
@@ -23,9 +23,9 @@ export default function Article({
             {title}
           </h3>
         </button>
-        <p className="my-1 lg:text-lg text-base text-slate-800 line-clamp-3">
+        {/* <p className="my-1 lg:text-lg text-base text-slate-800 line-clamp-3">
           {description}
-        </p>
+        </p> */}
         <ul className="flex items-center space-x-2 my-3 overflow-auto">
           {tags.map(tag => (
             <li

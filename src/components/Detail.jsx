@@ -20,7 +20,7 @@ export default function Detail({ portfolio, onClose }) {
       <img src={portfolio?.image} alt={portfolio?.title} />
       <div className="p-5 space-y-3">
         <h2 className="text-3xl text-gray-800 font-bold">{portfolio?.title}</h2>
-        <p className="text-lg leading-8">{portfolio?.description}</p>
+        {/* <p className="text-lg leading-8">{portfolio?.description}</p> */}
 
         <ul className="flex items-center space-x-2 my-3 overflow-x-auto">
           {portfolio?.tags.map(tag => (
@@ -33,9 +33,9 @@ export default function Detail({ portfolio, onClose }) {
           ))}
         </ul>
       </div>
-      <span className="fixed top-5 right-5 bg-white px-3 py-1 rounded shadow-lg font-medium text-sm hover:animate-pulse">
+      {/* <span className="fixed top-5 right-5 bg-white px-3 py-1 rounded shadow-lg font-medium text-sm hover:animate-pulse">
         ESC
-      </span>
+      </span> */}
     </div>
   );
 }

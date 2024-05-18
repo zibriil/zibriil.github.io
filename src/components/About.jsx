@@ -45,7 +45,7 @@ export default function About() {
             <img
               src={MyFoto}
               className="object-cover object-center select-none"
-              alt=""
+              alt="My Foto"
             />
           </div>
           <div className="bg-white lg:rounded-r-xl lg:rounded-bl-none rounded-b-xl p-5">
@@ -56,17 +56,17 @@ export default function About() {
                 passion for web development. I started my journey as a web
                 developer to pursue my interest and desire to keep learning. For
                 more information please click the following button to download
-                my CV. Thank you :)
+                my resume. Thank you :)
               </p>
             </div>
             <div className="flex justify-end">
               <a
-                href="https://drive.google.com/file/d/1y7Ob-nVeJFTi4YbHDpG2_0A4AzFCsTOS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lNfM4pJE-2pDb3tGMOX3Rt-3bSRTb9zz/view?usp=sharing"
                 className="inline-block bg-amber-400 text-gray-900 px-5 py-3 rounded font-medium tracking-wide"
                 target="_blank"
                 rel="noreferrer"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>

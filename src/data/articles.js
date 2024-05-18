@@ -2,19 +2,10 @@
 import maptyApp from '../assets/portfolio/mapty-Map-your-workouts.png';
 import forkifyApp from '../assets/portfolio/forkify-app.png';
 import bankistLanding from '../assets/portfolio/Bankist-Landing-Page.png';
-import msStoriesApp from '../assets/portfolio/MS-Stories-Baca-Novel-Seru-1.png';
-// import hungriApp from '../assets/portfolio/Hungrify-Apps-1.png';
-import hungriApp from '../assets/portfolio/Screenshot 2023-05-19 191905.png';
+import msStoriesApp from '../assets/portfolio/MS-Stories-Baca-Novel-Seru (5).png';
+import hungryApp from '../assets/portfolio/Hungrify-Apps (2).png';
 
 export const ARTICLES = [
-  // {
-  //   id: 'p1',
-  //   title: 'Bankist App',
-  //   image: bankistApp,
-  //   tags: ['JavaScript', 'ES6'],
-  //   description:
-  //     'Bankist app merupakan aplikasi web sederhana untuk melacak pengeluaran dan pemasukkan, memungkinkan pengguna melakukan transfer ke pengguna yang sudah didefinisikan dan withdraw. Ini adalah salah satu portfolio yang saya peroleh dari kursus Udemy dengan judul "The Complete JavaScript Course 2023: From Zero to Expert!" yang dibawakan oleh Mr. Jonas Schmedtmann untuk mempraktikan ilmu dan pengetahuan yang sudah dipelajari. Aplikasi web ini dibuat dengan JavaScript native dengan sintaks ES6.',
-  // },
   {
     id: 'p2',
     title: 'Bankist Landing Page',
@@ -50,7 +41,7 @@ export const ARTICLES = [
   {
     id: 'p6',
     title: 'Hungrify App',
-    image: hungriApp,
+    image: hungryApp,
     tags: [
       'JavaScript',
       'ES6',
