@@ -61,7 +61,7 @@ export default function About() {
             </div>
             <div className="flex justify-end">
               <a
-                href="https://drive.google.com/file/d/1lNfM4pJE-2pDb3tGMOX3Rt-3bSRTb9zz/view?usp=sharing"
+                href="https://drive.google.com/file/d/1p0ELgOgxRuKEr5Rhb4PFMnGxZ88-tC-P/view?usp=sharing"
                 className="inline-block bg-amber-400 text-gray-900 px-5 py-3 rounded font-medium tracking-wide"
                 target="_blank"
                 rel="noreferrer"

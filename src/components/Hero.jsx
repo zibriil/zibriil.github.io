@@ -9,7 +9,7 @@ export default function Hero() {
       />
       <h3 className="mt-5 text-3xl font-bold text-gray-800">M. Izrofi</h3>
       <h4 className="mt-1 text-xl font-semibold text-gray-800">
-        Frontend Web Developer
+        Web Developer
       </h4>
     </div>
   );

@@ -1,13 +1,16 @@
+import { Link } from 'react-router-dom';
+
 export default function Article({
   id,
   title,
   image,
   tags,
+  link,
   // description,
   onShowDetail,
 }) {
   return (
-    <article>
+    <Link to={link} target="_blank">
       <div className="p-3">
         <picture className="block p-3 rounded overflow-hidden">
           <img
@@ -37,6 +40,6 @@ export default function Article({
           ))}
         </ul>
       </div>
-    </article>
+    </Link>
   );
 }
